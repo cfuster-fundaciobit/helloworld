@@ -35,5 +35,11 @@ public class AppTest
     {
        int resultat  = new App().suma(2, 4);
         assertEquals(resultat, 6);
+        
+        int resta = new Remainder().resta(5, 3);
+        assertEquals(resta, 2);
+        
+       int resta2 =  new Remainder().suma(4, 2);
+        assertEquals(resta2, 6);
     }
 }
